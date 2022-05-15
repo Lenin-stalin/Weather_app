@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Saved_city">
+
+
+    <TextView
+        android:id="@+id/savedCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved cities"
+        android:textColor="@color/tint"
+        android:textSize="24sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_below="@+id/savedCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        style="@style/cardStyle"
+        >
+        <ImageView
+            android:id="@+id/iconcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_city"
+
+
+            />
+        <TextView
+            android:id="@+id/cardtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:text=""
+            android:textColor="@color/tint"
+            android:textSize="22sp"
+            />
+    </androidx.cardview.widget.CardView>
+<!--
+    <Button
+        android:id="@+id/create_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/tint"
+        android:layout_below="@+id/card"
+        android:text="Save city" />
+   -->
+
+
+</LinearLayout>

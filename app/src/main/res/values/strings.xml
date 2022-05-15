@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="logo">Weather</string>
+    <string name="choice">Enter city</string>
+    <string name="btn">Check</string>
+    <string name="error">Enter text</string>
+    <string name="noUser">You a loser</string>
+
+</resources>

@@ -76,5 +76,14 @@
         android:layout_marginTop="40dp"
         android:text="What to wear" />
 
+    <Button
+        android:id="@+id/save"
+        android:layout_width="45sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="26sp"
+        android:text="+"
+        android:textSize="20sp" />
+
 
 </RelativeLayout>
